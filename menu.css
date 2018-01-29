@@ -1,3 +1,22 @@
 * {
   border-style: solid;
+  margin: 5px;
+}
+
+.menu {
+  display: inline-grid;
+  width: 25%;
+}
+
+.menu:hover li {
+  display: block;
+}
+
+.menu li {
+  display: none;
+}
+
+
+.menu:hover {
+  background-color: palegreen
 }
